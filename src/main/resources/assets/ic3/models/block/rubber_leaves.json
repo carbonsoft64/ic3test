@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ic3:blocks/oak-leaves",
+    "up": "ic3:blocks/oak-leaves",
+    "north": "ic3:blocks/oak-leaves",
+    "east": "ic3:blocks/oak-leaves",
+    "south": "ic3:blocks/oak-leaves",
+    "west": "ic3:blocks/oak-leaves",
+    "particle": "ic3:blocks/oak-leaves"
+  }
+}

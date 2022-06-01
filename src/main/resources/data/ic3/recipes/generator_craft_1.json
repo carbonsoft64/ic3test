@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ic3:accumulator"
+    },
+    "1": {
+      "item": "ic3:machine_block"
+    },
+    "2": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "ic3:generator",
+    "count": 1
+  }
+}

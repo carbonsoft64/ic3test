@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ic3:hammer"
+    },
+    {
+      "item": "ic3:tin_plate"
+    }
+  ],
+  "result": {
+    "item": "ic3:tin_item_casing",
+    "count": 2
+  }
+}

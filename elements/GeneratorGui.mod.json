@@ -1,0 +1,550 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 186,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Energy: <energy>/4000",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Energy: <energy>/4000",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy0.png",
+          "use1Xscale": false,
+          "name": "energy0.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy1"
+          },
+          "name": "energy1.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy2"
+          },
+          "name": "energy2.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy3"
+          },
+          "name": "energy3.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy4"
+          },
+          "name": "energy4.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy5"
+          },
+          "name": "energy5.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy6"
+          },
+          "name": "energy6.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy7"
+          },
+          "name": "energy7.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy8"
+          },
+          "name": "energy8.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy9"
+          },
+          "name": "energy9.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy10"
+          },
+          "name": "energy10.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy11"
+          },
+          "name": "energy11.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy12"
+          },
+          "name": "energy12.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy13"
+          },
+          "name": "energy13.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy14"
+          },
+          "name": "energy14.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy15"
+          },
+          "name": "energy15.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy16.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy16"
+          },
+          "name": "energy16.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy17.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy17"
+          },
+          "name": "energy17.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy18.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy18"
+          },
+          "name": "energy18.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy19.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy19"
+          },
+          "name": "energy19.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy20.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy20"
+          },
+          "name": "energy20.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy21.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy21"
+          },
+          "name": "energy21.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy22.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy22"
+          },
+          "name": "energy22.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy23.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy23"
+          },
+          "name": "energy23.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy24.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy24"
+          },
+          "name": "energy24.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire0.png",
+          "use1Xscale": false,
+          "name": "fire0.png",
+          "x": 187,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel1"
+          },
+          "name": "fire1.png",
+          "x": 187,
+          "y": 86
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel2"
+          },
+          "name": "fire2.png",
+          "x": 187,
+          "y": 86
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel3"
+          },
+          "name": "fire3.png",
+          "x": 187,
+          "y": 85
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel4"
+          },
+          "name": "fire4.png",
+          "x": 187,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel5"
+          },
+          "name": "fire5.png",
+          "x": 187,
+          "y": 83
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel6"
+          },
+          "name": "fire6.png",
+          "x": 187,
+          "y": 82
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel7"
+          },
+          "name": "fire7.png",
+          "x": 187,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel8"
+          },
+          "name": "fire8.png",
+          "x": 187,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel9"
+          },
+          "name": "fire9.png",
+          "x": 187,
+          "y": 79
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel10"
+          },
+          "name": "fire10.png",
+          "x": 187,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel11"
+          },
+          "name": "fire11.png",
+          "x": 187,
+          "y": 77
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel12"
+          },
+          "name": "fire12.png",
+          "x": 187,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel13"
+          },
+          "name": "fire13.png",
+          "x": 187,
+          "y": 75
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 19,
+      "sy": 14,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

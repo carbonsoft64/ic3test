@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "ic3:tin_cable_1"
+    },
+    "3": {
+      "item": "ic3:tin_item_casing"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "ic3:tin_item_casing"
+    },
+    "6": {
+      "item": "ic3:tin_item_casing"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "item": "ic3:tin_item_casing"
+    }
+  },
+  "result": {
+    "item": "ic3:accumulator",
+    "count": 1
+  }
+}

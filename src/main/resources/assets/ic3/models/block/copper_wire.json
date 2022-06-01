@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ic3:blocks/copper_cable_0",
+    "up": "ic3:blocks/copper_cable_0",
+    "north": "ic3:blocks/copper_cable_0",
+    "east": "ic3:blocks/copperwire_fronttxtr",
+    "south": "ic3:blocks/copper_cable_0",
+    "west": "ic3:blocks/copperwire_fronttxtr",
+    "particle": "ic3:blocks/copper_cable_0"
+  }
+}

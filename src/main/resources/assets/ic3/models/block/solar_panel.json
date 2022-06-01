@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ic3:blocks/solar_generator_bottom",
+    "up": "ic3:blocks/solar_generator_top",
+    "north": "ic3:blocks/solar_generator_sides",
+    "east": "ic3:blocks/solar_generator_sides",
+    "south": "ic3:blocks/solar_generator_sides",
+    "west": "ic3:blocks/solar_generator_sides",
+    "particle": "ic3:blocks/solar_generator_bottom"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ic3:blocks/rubber_wood_wet_bottomtop",
+    "up": "ic3:blocks/rubber_wood_wet_bottomtop",
+    "north": "ic3:blocks/rubber_wood_wet_front",
+    "east": "ic3:blocks/rubber_wood_wet_leftrightback",
+    "south": "ic3:blocks/rubber_wood_wet_leftrightback",
+    "west": "ic3:blocks/rubber_wood_wet_leftrightback",
+    "particle": "ic3:blocks/rubber_wood_wet_bottomtop"
+  }
+}

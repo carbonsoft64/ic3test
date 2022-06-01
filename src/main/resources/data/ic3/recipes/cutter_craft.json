@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ic3:iron_plate"
+    },
+    "2": {
+      "item": "ic3:iron_plate"
+    },
+    "4": {
+      "item": "ic3:iron_plate"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ic3:cutter",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "ic3:iron_plate"
+    },
+    "3": {
+      "item": "ic3:iron_plate"
+    },
+    "5": {
+      "item": "ic3:iron_plate"
+    },
+    "6": {
+      "item": "ic3:iron_plate"
+    },
+    "7": {
+      "item": "minecraft:furnace"
+    },
+    "8": {
+      "item": "ic3:iron_plate"
+    }
+  },
+  "result": {
+    "item": "ic3:iron_furnace",
+    "count": 1
+  }
+}

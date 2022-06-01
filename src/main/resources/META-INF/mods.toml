@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="ic3"
+version="0.0.2"
+displayName="Industrial Craft 3"
+credits="Created by likespro"
+displayURL="https://github.com/carbonsoft64/ic3"
+logoFile="logo.png"
+authors="Carbonsoft"
+description='''
+This is remake of the legendary mod - Industrial Craft 3. Made by likespro.
+'''
+
+[[dependencies.ic3]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.ic3]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

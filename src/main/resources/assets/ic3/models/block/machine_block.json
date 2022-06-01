@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ic3:blocks/generator_bottom",
+    "up": "ic3:blocks/generator_bottom",
+    "north": "ic3:blocks/generator_bottom",
+    "east": "ic3:blocks/generator_bottom",
+    "south": "ic3:blocks/generator_bottom",
+    "west": "ic3:blocks/generator_bottom",
+    "particle": "ic3:blocks/generator_bottom"
+  }
+}

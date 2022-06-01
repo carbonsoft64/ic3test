@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ic3:block/generator_on"
+    },
+    "facing=east": {
+      "model": "ic3:block/generator_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ic3:block/generator_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ic3:block/generator_on",
+      "y": 270
+    }
+  }
+}

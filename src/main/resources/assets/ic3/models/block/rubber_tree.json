@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ic3:blocks/rubber_sapling",
+    "particle": "ic3:blocks/rubber_sapling"
+  }
+}

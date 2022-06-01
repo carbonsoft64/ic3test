@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ic3:accumulator"
+    },
+    "3": {
+      "item": "ic3:iron_plate"
+    },
+    "4": {
+      "item": "ic3:iron_plate"
+    },
+    "5": {
+      "item": "ic3:iron_plate"
+    },
+    "7": {
+      "item": "ic3:iron_furnace"
+    }
+  },
+  "result": {
+    "item": "ic3:generator",
+    "count": 1
+  }
+}

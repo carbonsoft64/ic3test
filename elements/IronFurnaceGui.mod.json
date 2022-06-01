@@ -1,0 +1,562 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 168,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fuel: <BNBT:number:fuel>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Fuel: <BNBT:number:fuel>",
+          "x": 195,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Process: <BNBT:number:melting>%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Process: <BNBT:number:melting>%",
+          "x": 195,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire0.png",
+          "use1Xscale": false,
+          "name": "fire0.png",
+          "x": 170,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel1"
+          },
+          "name": "fire1.png",
+          "x": 170,
+          "y": 86
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel2"
+          },
+          "name": "fire2.png",
+          "x": 170,
+          "y": 85
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel3"
+          },
+          "name": "fire3.png",
+          "x": 170,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel4"
+          },
+          "name": "fire4.png",
+          "x": 170,
+          "y": 83
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel5"
+          },
+          "name": "fire5.png",
+          "x": 170,
+          "y": 82
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel6"
+          },
+          "name": "fire6.png",
+          "x": 170,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy7"
+          },
+          "name": "fire7.png",
+          "x": 170,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel8"
+          },
+          "name": "fire8.png",
+          "x": 170,
+          "y": 79
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel9"
+          },
+          "name": "fire9.png",
+          "x": 170,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel10"
+          },
+          "name": "fire10.png",
+          "x": 170,
+          "y": 77
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy11"
+          },
+          "name": "fire11.png",
+          "x": 170,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel12"
+          },
+          "name": "fire12.png",
+          "x": 170,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fuel13"
+          },
+          "name": "fire13.png",
+          "x": 170,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt0.png",
+          "use1Xscale": false,
+          "name": "melt0.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt1"
+          },
+          "name": "melt1.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt2"
+          },
+          "name": "melt2.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt3"
+          },
+          "name": "melt3.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt4"
+          },
+          "name": "melt4.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt5"
+          },
+          "name": "melt5.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt6"
+          },
+          "name": "melt6.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt7"
+          },
+          "name": "melt7.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt8"
+          },
+          "name": "melt8.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt9"
+          },
+          "name": "melt9.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt10"
+          },
+          "name": "melt10.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt11"
+          },
+          "name": "melt11.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt12"
+          },
+          "name": "melt12.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt13"
+          },
+          "name": "melt13.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt14"
+          },
+          "name": "melt14.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt15"
+          },
+          "name": "melt15.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt16.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt16"
+          },
+          "name": "melt16.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt17.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt17"
+          },
+          "name": "melt17.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt18.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt18"
+          },
+          "name": "melt18.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt19.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt19"
+          },
+          "name": "melt19.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt20.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt20"
+          },
+          "name": "melt20.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt21.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt21"
+          },
+          "name": "melt21.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melt22.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Melt22"
+          },
+          "name": "melt22.png",
+          "x": 204,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
